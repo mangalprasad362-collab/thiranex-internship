@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio of Alex Morgan, a web developer creating accessible, performant, and user-friendly websites.">
+  <meta name="author" content="Alex Morgan">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0f172a">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alex Morgan | Web Developer">
+  <meta property="og:description" content="Accessible, performant, and user-friendly web development portfolio.">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:site_name" content="Alex Morgan Portfolio">
+
+  <link rel="canonical" href="https://example.com/">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Alex Morgan | Web Developer Portfolio</title>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Alex Morgan home">
+        Alex Morgan
+      </a>
+
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <p class="eyebrow">Web Developer &amp; Accessibility Advocate</p>
+
+        <h1 id="hero-title">
+          Building accessible experiences for the web.
+        </h1>
+
+        <p class="hero-text">
+          I create fast, semantic, responsive websites that are designed
+          for everyone to use.
+        </p>
+
+        <div class="button-group">
+          <a class="button button-primary" href="projects.html">
+            View my projects
+          </a>
+
+          <a class="button button-secondary" href="contact.html">
+            Get in touch
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">What I do</p>
+          <h2 id="services-title">Services</h2>
+        </header>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Web Development</h3>
+            <p>
+              Responsive websites built with clean HTML, CSS, and
+              JavaScript.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Accessibility</h3>
+            <p>
+              Inclusive interfaces designed around WCAG guidelines,
+              keyboard navigation, and assistive technology.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Performance</h3>
+            <p>
+              Lightweight experiences optimized for fast loading and
+              excellent Core Web Vitals.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="featured-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Selected work</p>
+          <h2 id="featured-title">Featured project</h2>
+        </header>
+
+        <article class="project-feature">
+          <div>
+            <h3>Accessible Community Platform</h3>
+
+            <p>
+              A responsive community platform built with progressive
+              enhancement and accessibility as core requirements.
+            </p>
+
+            <ul class="tag-list" aria-label="Technologies used">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>WCAG</li>
+            </ul>
+
+            <a class="text-link" href="projects.html">
+              Explore all projects
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>
+        &copy; <span id="current-year">2026</span> Alex Morgan.
+        All rights reserved.
+      </p>
+
+      <nav aria-label="Footer navigation">
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("current-year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>

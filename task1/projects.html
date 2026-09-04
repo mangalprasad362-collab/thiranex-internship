@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Explore Alex Morgan's web development projects, including accessible and performance-focused websites.">
+  <meta name="author" content="Alex Morgan">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0f172a">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects | Alex Morgan">
+  <meta property="og:description" content="Selected accessible and performance-focused web development projects.">
+
+  <link rel="canonical" href="https://example.com/projects.html">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Projects | Alex Morgan Web Developer</title>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Alex Morgan home">
+        Alex Morgan
+      </a>
+
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header" aria-labelledby="page-title">
+      <div class="container">
+        <p class="eyebrow">Portfolio</p>
+        <h1 id="page-title">Selected projects</h1>
+        <p>
+          A selection of projects focused on accessibility, performance,
+          and usability.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title" class="visually-hidden">
+          Project list
+        </h2>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-number">01</p>
+              <h3>Accessible Community Platform</h3>
+
+              <p>
+                A responsive platform designed for community groups,
+                featuring keyboard-friendly navigation and accessible
+                forms.
+              </p>
+
+              <ul class="tag-list" aria-label="Technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <a href="#" class="text-link">
+                View project
+                <span class="visually-hidden">
+                  Accessible Community Platform
+                </span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-number">02</p>
+              <h3>Performance Dashboard</h3>
+
+              <p>
+                A lightweight dashboard focused on readable data
+                presentation and efficient page loading.
+              </p>
+
+              <ul class="tag-list" aria-label="Technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <a href="#" class="text-link">
+                View project
+                <span class="visually-hidden">
+                  Performance Dashboard
+                </span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-number">03</p>
+              <h3>Inclusive Design System</h3>
+
+              <p>
+                A reusable component system with accessible color,
+                typography, interaction, and focus states.
+              </p>
+
+              <ul class="tag-list" aria-label="Technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>WCAG</li>
+              </ul>
+
+              <a href="#" class="text-link">
+                View project
+                <span class="visually-hidden">
+                  Inclusive Design System
+                </span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-number">04</p>
+              <h3>Responsive Business Website</h3>
+
+              <p>
+                A mobile-first business website with semantic content,
+                structured metadata, and optimized assets.
+              </p>
+
+              <ul class="tag-list" aria-label="Technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SEO</li>
+              </ul>
+
+              <a href="#" class="text-link">
+                View project
+                <span class="visually-hidden">
+                  Responsive Business Website
+                </span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="current-year">2026</span> Alex Morgan.</p>
+
+      <nav aria-label="Footer navigation">
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("current-year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>

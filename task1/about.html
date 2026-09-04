@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Learn about Alex Morgan, a web developer focused on accessible, semantic, and performant websites.">
+  <meta name="author" content="Alex Morgan">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0f172a">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About Alex Morgan">
+  <meta property="og:description" content="Learn about Alex Morgan and their approach to accessible web development.">
+
+  <link rel="canonical" href="https://example.com/about.html">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>About Alex Morgan | Web Developer</title>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Alex Morgan home">
+        Alex Morgan
+      </a>
+
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header" aria-labelledby="page-title">
+      <div class="container">
+        <p class="eyebrow">About me</p>
+        <h1 id="page-title">I build with people in mind.</h1>
+        <p>
+          My goal is to make the web faster, simpler, and more inclusive.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="story-title">
+      <div class="container content-narrow">
+        <h2 id="story-title">My approach</h2>
+
+        <p>
+          I believe accessibility should be part of the development
+          process from the beginning rather than something added at the
+          end of a project.
+        </p>
+
+        <p>
+          I use semantic HTML, progressive enhancement, responsive CSS,
+          and carefully considered JavaScript to create interfaces that
+          work across devices and input methods.
+        </p>
+
+        <h2>Core skills</h2>
+
+        <ul class="skill-list">
+          <li>Semantic HTML5</li>
+          <li>Modern CSS</li>
+          <li>JavaScript</li>
+          <li>Responsive Web Design</li>
+          <li>WCAG Accessibility</li>
+          <li>Web Performance</li>
+          <li>SEO Fundamentals</li>
+          <li>Git and Version Control</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="values-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="values-title">What matters to me</h2>
+        </header>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Accessibility</h3>
+            <p>
+              Interfaces should be usable by people with different
+              abilities, devices, and interaction methods.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Performance</h3>
+            <p>
+              A beautiful website should also be fast and efficient.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Simplicity</h3>
+            <p>
+              Clear content and purposeful design create better user
+              experiences.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="current-year">2026</span> Alex Morgan.</p>
+
+      <nav aria-label="Footer navigation">
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("current-year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
