@@ -1,0 +1,22 @@
+.about-grid {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.about-image {
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+.about-image img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.about-content {
+  display: grid;
+  align-content: center;
+  gap: var(--space-4);
+}

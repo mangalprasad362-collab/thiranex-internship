@@ -1,0 +1,35 @@
+@media (min-width: 900px) {
+
+  .container {
+    width: min(100% - 4rem, var(--container));
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .hero-content {
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .contact-grid {
+    grid-template-columns: 0.8fr 1.2fr;
+    align-items: start;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}

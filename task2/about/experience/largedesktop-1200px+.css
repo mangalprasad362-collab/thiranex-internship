@@ -1,0 +1,18 @@
+@media (min-width: 1200px) {
+
+  .section {
+    padding-block: 7rem;
+  }
+
+  .hero {
+    min-height: 90svh;
+  }
+
+  .hero-content {
+    grid-template-columns: 1.4fr 0.6fr;
+  }
+
+  .projects-grid {
+    gap: var(--space-6);
+  }
+}
