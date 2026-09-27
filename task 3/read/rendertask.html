@@ -1,0 +1,38 @@
+
+    function renderTasks() {
+
+      taskList.innerHTML = "";
+
+      const filteredTasks = tasks.filter(task => {
+
+        if (currentFilter === "active") {
+          return !task.completed;
+        }
+
+        if (currentFilter === "completed") {
+          return task.completed;
+        }
+
+        return true;
+      });
+
+
+      if (filteredTasks.length === 0) {
+
+        const emptyMessage = document.createElement("li");
+
+        emptyMessage.className = "empty-message";
+
+        emptyMessage.textContent = "No tasks found.";
+
+        taskList.appendChild(emptyMessage);
+
+      } else {
+
+        filteredTasks.forEach(task => {
+
+          const li = document.createElement("li");
+
+          li.className = `task ${task.completed ? "completed" : ""}`;
+
+          li.dataset.id = task.id;

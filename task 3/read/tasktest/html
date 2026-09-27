@@ -1,0 +1,7 @@
+
+          const span = document.createElement("span");
+
+          span.className = "task-text";
+
+          span.textContent = task.text;
+
