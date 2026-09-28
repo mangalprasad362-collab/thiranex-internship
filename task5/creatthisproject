@@ -1,0 +1,6 @@
+npm create vite@latest ecommerce-capstone -- --template react
+cd ecommerce-capstone
+npm install
+npm install react-router-dom lucide-react
+npm run dev
+
